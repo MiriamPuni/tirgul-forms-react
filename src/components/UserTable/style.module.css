@@ -1,0 +1,19 @@
+.UserTable{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    max-width: 100%;
+    width: 600px;
+    border: 1px solid #333;
+    box-shadow: 5px 5px 30px -5px #ffffff89;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+tr:nth-child(even) {
+    background-color:#3c3c3c;
+}
+
+th, td {
+    text-align: center;
+    padding: 3px;
+}
